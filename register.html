@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginFlick & Pick</title>
+    <link rel="stylesheet" href="register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="gradient-overlay"></div>
+      <div class="flicklogo">
+        <img src="/images/FlickPick logo branco.png" alt="">
+      </div>
+      <div class="login-box" id="login-box">
+        <h1>Register</h1>
+
+        <div class="user-box" id="user-box">
+          <input type="text" id="username" placeholder="Username">
+          <span class="error-message" id="user-error"></span>
+        </div>
+
+        <div class="email-box" id="email-box">
+          <input type="text" id="email" placeholder="Email">
+          <span class="error-message" id="email-error"></span>
+        </div>
+
+        <div class="password-box" id="password-box">
+          <input class="password" type="password" id="password" placeholder="Password">
+          <span class="error-message" id="password-error"></span>
+        </div>
+
+        <div class="confirm-button" id="confirm-button">
+          <button type="button" onclick="validateForm()">Register</button>
+        </div>
+      
+        <div class="checkbox-container">
+          <input type="checkbox" id="remember" name="remember">
+          <label for="remember">Remember me</label>
+        </div>
+
+        <div class="info">
+          <a href="register.html">New here? <strong>register now!</strong></a>
+        </div>
+
+        <div class="back">
+          <img src="/images/Left.svg" alt="Seta pra voltar">
+          <a href="index.html">Back</a>
+        </div>
+      </div>
+    </div>
+    <script src="relogin.js"></script>
+  </body>
+</html>

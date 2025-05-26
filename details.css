@@ -1,0 +1,104 @@
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'montserrat', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  
+}
+
+#details-container {
+  width: 600px; /* Largura fixa do container */
+  height: 90vh; /* Altura fixa */
+  overflow-y: auto; /* Rolagem interna */
+  padding: 20px;
+  color: white;
+  background-color: transparent; /* Sem fundo */
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  border-radius: 10px;
+  position: relative; /* Posicionar sobre a imagem de fundo */
+  border: none; /* Remover bordas */
+}
+
+.details-content {
+  background-color: transparent; /* Fundo transparente para o conteúdo */
+  padding: 20px;
+  margin-top: 1;
+  border-radius: 10px;
+  text-align: left;
+}
+
+
+button {
+  padding: 10px 43px;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  left: 3.5%;
+  background-color: transparent;
+  border-radius: 100px;
+  color: white;
+  border: 1px solid white;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+#content-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#content-description,
+#content-release-date,
+#content-rating,
+#content-genres {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.movie-logo {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* A imagem de fundo do filme */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.5);
+  z-index: -1; /* Coloca atrás de tudo */
+}
+
+.details-box {
+  display: inline-block;
+  background-color: rgba(39, 37, 37, 0); /* Caixa com fundo suave e transparente */
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-weight: bold;
+  width: 100px; /* Largura fixa */
+  text-align: center;
+  margin-bottom: 10px; /* Distância entre os botões */
+  font-weight: 200;
+}

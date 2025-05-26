@@ -1,0 +1,14 @@
+:root {
+  --brand-color-light: #d9adec;
+  --brand-color-dark: #161921;
+  --bg-color: #eaaee8;
+  --bg-color2: #afdcdf;
+  --stroke-color: #ffffff;
+  --text-color-primary: #ffffff;
+  --text-color-secondary: #ffffff;
+
+  --font-family: "Montserrat", serif;
+  --font-weight-light: 200; 
+  --font-weight-normal: 400;
+  --font-weight-bold: 700; 
+}

@@ -1,0 +1,8 @@
+body {
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out; /* Transição suave */
+}
+
+body.fade-out {
+  opacity: 0; /* Opacidade zero cria o efeito de sumir */
+}

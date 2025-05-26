@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flick & Pick</title>
+  <link rel="stylesheet" href="movies.css">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="flicklogo">
+      <img src="/images/FlickPick logo branco.png" alt="">
+    </div>
+    <div class="gradient-overlay"></div>
+    <div class="header">
+      <a href="index.html" class="link-transicao" >Home</a>
+      <a href="#" class="link-transicao" >Trailers</a>
+      <a href="#" class="link-transicao" >Movies</a>
+      <img src="/images/MagnifyingGlass.svg" alt="Search Icon">
+      <div class="filters">
+        <select id="type-select">
+          <option value="movie">Filmes</option>
+          <option value="tv">Séries</option>
+        </select>
+      
+        <select id="genre-select">
+          <option value="">Selecione um Gênero</option>
+        </select>
+      </div>
+      
+      <input type="text" id="search-input" placeholder="Procure um filme...">
+    </div>
+    <div class="movies-container" id="movies-container">
+    </div>
+    
+  </div>
+  <script src="transitions.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
+
