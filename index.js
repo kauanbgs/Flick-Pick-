@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const API_KEY = '2f0827999d2cf4e89ab895d9e21d5c0a';
+  const API_KEY = '';
   const BASE_URL = 'https://api.themoviedb.org/3';
   const IMG_URL = 'https://image.tmdb.org/t/p/w500';
   const moviesContainer = document.getElementById('movies-container');
